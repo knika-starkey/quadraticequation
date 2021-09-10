@@ -6,8 +6,8 @@ let D = b*b-4*a*c;
 alert("D="+b+"^2-4"+a+c+"="+D);
 if (D>0)
 {
-    let x1 = (-b + Math.sqrt(D))/2*a;
-    let x2 = (-b - Math.sqrt(D))/2*a;
+    let x1 = (-b + Math.sqrt(D))/(2*a);
+    let x2 = (-b - Math.sqrt(D))/(2*a);
     alert("x1 = "+x1+"; x2 = "+x2);
 }
 else if (D=0)
