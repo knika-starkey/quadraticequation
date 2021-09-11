@@ -10,7 +10,7 @@ if (D>0)
     let x2 = (-b - Math.sqrt(D))/(2*a);
     alert("x1 = "+x1+"; x2 = "+x2);
 }
-else if (D=0)
+else if (D==0)
 {
 let x = -b/(2*a);
 alert("x = "+x);
