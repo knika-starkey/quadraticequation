@@ -7,6 +7,9 @@ else {
   if (a == 0) {
     let x = -c / b;
     alert("x = " + x);
+  } else if (b == 0) {
+    let x1 = Math.sqrt(-c / a);
+    let x2 = Math.sqrt(c / a);
   } else {
     let D = b * b - 4 * a * c;
     alert("D=" + b + "^2-4" + a + c + "=" + D);
@@ -20,4 +23,3 @@ else {
     } else alert("Expression has no roots");
   }
 }
-
